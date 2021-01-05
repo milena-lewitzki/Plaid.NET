@@ -71,7 +71,7 @@ namespace Acklann.Plaid.Entity
         /// Transaction Sub-Type
         /// </summary>
         [JsonProperty("subtype")]
-        public InvestmentTransactionSubType TransactionSubType { get; set; }
+        public InvestmentTransactionSubType? TransactionSubType { get; set; }
 
         /// <summary>
         /// The ISO-4217 currency code of the holding. Always null if unofficial_currency_code is non-null.
